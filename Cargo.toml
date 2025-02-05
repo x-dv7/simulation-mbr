@@ -1,0 +1,16 @@
+[package]
+name = "simulation-mbr"
+version = "0.2.0"
+authors = [
+    "Дмитрий <dv7@bk.ru>"]
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1.43", features = ["full"] }
+axum = { version = "0.8", features = ["ws"] }
+tower-http = { version = "0.6", features = ["cors"] }
+http = "1.2"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+lib-simulation-lifelong = { path = "../simulation2" }
