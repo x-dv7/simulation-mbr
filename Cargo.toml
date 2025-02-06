@@ -1,8 +1,7 @@
 [package]
 name = "simulation-mbr"
 version = "0.3.0"
-authors = [
-    "Дмитрий <x-dv7@yandex.ru>"]
+authors = ["Дмитрий <x-dv7@yandex.ru>"]
 edition = "2021"
 
 [dependencies]
